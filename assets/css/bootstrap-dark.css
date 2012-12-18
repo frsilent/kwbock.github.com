@@ -1,0 +1,22 @@
+.grayout {
+    background-color: #2F2F2F;
+    color: #C6C6C6;
+}
+
+.grayout legend {
+    color: white;
+}
+
+.grayout .well {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: black;
+    box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
+}
+
+.grayout .well legend {
+    border-bottom: 1px solid #121212;
+}
+
+.grayout em {
+    color: #DADBB1;
+}
