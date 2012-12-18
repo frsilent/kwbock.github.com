@@ -5,7 +5,7 @@ title: Creating a Jekyll Blog
 #### Purpose
 Today I went about creating a blog for the first time. I've never had any sort of blog in the past. I will be creating it from scratch, and hopefully will find some cool tricks along the way.
 
-One of the purposes of this is to learn [Jekyll](http://jekyllrb.com/) as it's one of the options for [Github Pages](http://pages.github.com). This page, will server as a place that I can share interesting technical tips or tricks that I discover while working on various projects.
+One of the purposes of this is to learn [Jekyll](http://jekyllrb.com/) as it's one of the options for [Github Pages](http://pages.github.com). This page, will serve as a place that I can share interesting technical tips or tricks that I discover while working on various projects.
 
 In addition to that, I will post tricks I find over the course of developing this site which I hope will help future users of Jekyll get started.
 
