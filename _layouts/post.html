@@ -10,10 +10,9 @@ show_about: False
       </legend>
     </header>
     <div class="post-content">
-      {{ page.content }}
+      {{ page.content | markdownify }}
     </div>
     <footer>
-      {{ page }}
     </footer>
   </article>
 </div>
