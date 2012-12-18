@@ -13,6 +13,11 @@ show_about: False
       {{ page.content | markdownify }}
     </div>
     <footer>
+      <legend>
+      {% for category in page.categories %}
+        {{ category }}{% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+      </legend>
     </footer>
   </article>
 </div>

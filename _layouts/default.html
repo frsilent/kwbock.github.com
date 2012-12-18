@@ -17,6 +17,7 @@
           <ul class="nav">
             <li><a href="/">Home</a></li>
             <li><a href="/about-me.html">About Me</a></li>
+            <li><a href="/resume.html">Resume</a>
           </ul>
         </div>
       </div>
@@ -36,28 +37,7 @@
           {{ content }}
         </div>
         <div class="span4">
-          <aside class="well">
-            <header>
-                <legend><h4>Projects</h4></legend>
-            </header>
-            <div class="aside-content">
-                <ul>
-                    <li><a href="http://github.com/kwbock/clipster">Clipster</a></li>
-                    <li><a href="http://github.com/kwbock/KBButton">KBButton</a></li>
-                    <li><a href="http://github.com/kwbock/KBTextField">KBTextField</a></li>
-                </ul>
-            </div>
-          </aside>
-          {% comment %}
-          <aside class="well">
-              <header>
-                  <legend><h4>Categories</h4></legend>
-              </header>
-              <div class="aside-content">
-
-              </div>
-          </aside>
-          {% endcomment %}
+          {% include sidebar_negotiation.html %}
         </div>
       </div>
     </div>

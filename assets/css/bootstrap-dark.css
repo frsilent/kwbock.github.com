@@ -17,6 +17,13 @@
     border-bottom: 1px solid #121212;
 }
 
+.grayout .well footer legend {
+    border-top: 1px solid #121212;
+    border-bottom: none;
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
 .grayout em {
     color: #DADBB1;
 }

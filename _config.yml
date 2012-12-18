@@ -1,5 +1,7 @@
 safe: true
 source: .
 destination: ./_site
+plugins: ./_plugins
 lsi: false
 pygments: true
+category_dir: 'categories'
