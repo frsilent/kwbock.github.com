@@ -7,12 +7,12 @@ Recently I was tasked to create a mobile site at work that behaved and had the f
 Immediately I thought the [jQuery mobile navbar](http://jquerymobile.com/test/docs/toolbars/docs-navbar.html) would provide the look and feel I was looking for. I figured that I could just have multiple `data-role="page"` elements and use jQuery mobile's page switching mechanism to handle the transitions.
 
 #### The Problem
-This solutions worked great, excpet that jQuery mobile doesn't allow for global headers or footers. Each page has to have it's own `data-role="header"` and `data-role="footer"` elements.
+This solution worked great, except that jQuery mobile doesn't allow for global headers or footers. Each page has to have it's own `data-role="header"` and `data-role="footer"` elements.
 
-This lead me to create the following solution that would allow me to use this tab control within a page, or within a fixed footer for a native feel.
+This lead me to create the following solution that allowed me to use tab control within a page, or within a fixed footer for a native feel.
 
 #### The Solution
-The solution I came up with was to create a bit of javascript and css that if I structured my markup would automatically handle navigation tab behaviour without having to invoke it in a `mobileinit` or similar event.
+The solution I came up with was to create a bit of javascript and css that if I structured my markup automatically handles navigation tab behaviour without having to invoke it in a `mobileinit` or similar event. All you have to do is correctly structure your markup.
 
 ##### The Javascript
 
