@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Creating a jQuery Mobile Tab Control
+comments: true
 ---
 Recently I was tasked to create a mobile site at work that behaved and had the feel of a native mobile application. The application itself is relatively simple with only three views. One of these views however needed a tab control on the bottom of the page, similar to an iOS navigation bar.
 

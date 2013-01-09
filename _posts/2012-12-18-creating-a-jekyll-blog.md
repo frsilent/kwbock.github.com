@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Creating a Jekyll Blog
+comments: true
 ---
 #### Purpose
 Today I went about creating a blog for the first time. I've never had any sort of blog in the past. I will be creating it from scratch, and hopefully will find some cool tricks along the way.
