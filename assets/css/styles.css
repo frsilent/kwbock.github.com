@@ -13,3 +13,11 @@ article.post .post-content,
 article.post .footer {
     margin: 5px;
 }
+
+.post-content img {
+    margin: auto;
+}
+
+.center {
+    text-align: center;
+}
