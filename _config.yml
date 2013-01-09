@@ -4,3 +4,5 @@ destination: ./_site
 lsi: false
 pygments: true
 permalink: /blog/:title
+paginate: 5
+markdown: kramdown
