@@ -22,7 +22,7 @@ namespace :blog do
     title = ENV['title']
     comments = ENV['comments']
 
-    new_post_file = %W{#{Time.now.strftime("%Y-%m-%d")} #{title.split(" ").join("-")}}.join("-")
+    new_post_file = %W{#{Time.now.strftime("%Y-%m-%d")} #{title.gsub(" ","-")}}.join("-")
     File.open("_posts/#{new_post_file}.md", 'w') do |f|
       f.puts "---"
       f.puts "layout: post"
